@@ -1,25 +1,25 @@
 class Kurama < Formula
   desc "Credentials and APIs for coding agents: AWS roles with MFA, OAuth and API keys, OpenAPI, data, databases"
   homepage "https://github.com/ynishimura/kurama"
-  version "0.1.1"
+  version "0.1.2"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/ynishimura/kurama/releases/download/v0.1.1/kurama-aarch64-apple-darwin.tar.xz"
-      sha256 "92087207b3507e07b44286bc6708496f8fc0db39d9f26fe68077be78464a81df"
+      url "https://github.com/ynishimura/kurama/releases/download/v0.1.2/kurama-aarch64-apple-darwin.tar.xz"
+      sha256 "0980aad39e189658443553485c17f5ed88e1ac2f5cca77dc96ee43ddaf42e06d"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/ynishimura/kurama/releases/download/v0.1.1/kurama-x86_64-apple-darwin.tar.xz"
-      sha256 "e09141dd040e2aabb0176541d32fcfa34bcec7e6c295b61d82ec9d888e2a40f6"
+      url "https://github.com/ynishimura/kurama/releases/download/v0.1.2/kurama-x86_64-apple-darwin.tar.xz"
+      sha256 "3bef8a8b4f65a74a79c9d5b7e0cf127bf90ca2aaddef87da37a502ad36ebc1dd"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/ynishimura/kurama/releases/download/v0.1.1/kurama-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "bbc1b1470ccd66ff046ca4b4ed3bf1a500fb0aee0aa7e751be9f0537f7fb865c"
+      url "https://github.com/ynishimura/kurama/releases/download/v0.1.2/kurama-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "66a445707648aa3b69b547e1fec6a3481b4e933ac2cc88277557a5328f0c0204"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/ynishimura/kurama/releases/download/v0.1.1/kurama-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "989e1ac530964d31f6b44424649f6c9bab711681c05925d554b8b696df36e79c"
+      url "https://github.com/ynishimura/kurama/releases/download/v0.1.2/kurama-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "73b5f5fdb68f78eff4cd706708447d0970a66a53d2f508f2624b2cfdf3461a5c"
     end
   end
   license "MIT"
